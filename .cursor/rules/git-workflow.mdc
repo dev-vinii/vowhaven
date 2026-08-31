@@ -1,0 +1,49 @@
+---
+description: Convenções de Git — branches e commits
+alwaysApply: true
+---
+
+# Git Workflow
+
+## Branches
+
+Use o prefixo do tipo de mudança seguido de descrição curta em kebab-case:
+
+```
+feat/gift-checkout
+fix/rsvp-duplicate-guest
+refact/wedding-config
+docs/readme-setup
+```
+
+| Prefixo | Quando usar |
+|---------|-------------|
+| `feat/` | Nova funcionalidade |
+| `fix/` | Correção de bug |
+| `refact/` | Refatoração sem mudança de comportamento |
+| `docs/` | Apenas documentação |
+| `style/` | Apenas estilo/visual |
+
+**Não use** prefixos como `cursor/` ou nomes genéricos (`update`, `changes`).
+
+## Commits
+
+Siga o padrão [Conventional Commits](https://www.conventionalcommits.org/) já usado no projeto:
+
+```
+feat(gifts): add claim gift action
+fix(api): reject duplicate rsvp
+refact: extract wedding config
+```
+
+- Escopo opcional entre parênteses: `feat(gifts):`, `fix(api):`
+- Mensagem em inglês, imperativo, minúscula após o tipo
+- Um commit por mudança lógica
+
+## Arquivos
+
+Todos os arquivos do projeto usam **kebab-case** (`use-gifts.ts`, `gift-card.tsx`). Ver regra `naming-conventions` para detalhes e exceções do Next.js.
+
+## Pre-push
+
+O hook Husky em `.husky/pre-push` roda `pnpm lint` antes de cada `git push`. Para pular em emergência: `git push --no-verify`.
