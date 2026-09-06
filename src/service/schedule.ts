@@ -22,7 +22,7 @@ export const schedule: ScheduleItem[] = [
     id: "reception",
     time: "19:00",
     title: "Recepção e jantar",
-    place: "Casa da Ópera",
+    place: "Salão da recepção",
   },
   {
     id: "dance",

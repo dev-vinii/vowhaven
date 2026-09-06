@@ -14,7 +14,7 @@ export default function SchedulePage() {
       </p>
       <h1 className="mt-3 font-display text-5xl text-tile">Programa</h1>
       <p className="mt-4 text-mute">
-        Cerimônia na igreja, retratos no adro e jantar na Casa da Ópera.
+        Cerimônia na igreja, retratos no adro e jantar na recepção.
       </p>
       <div className="mt-8">
         <ScheduleList />

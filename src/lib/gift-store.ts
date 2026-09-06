@@ -20,7 +20,7 @@ const gifts: Gift[] = [
   {
     id: "pottery",
     title: "Conjunto de cerâmica",
-    description: "Tigelas e jarras feitas em oficina de Ouro Preto.",
+    description: "Tigelas e jarras feitas em oficina paulistana.",
     priceCents: 42000,
     category: "Mesa",
     status: "claimed",
@@ -36,7 +36,7 @@ const gifts: Gift[] = [
   {
     id: "coffee",
     title: "Kit de café",
-    description: "Moinho, prensa e grãos de uma torrefação mineira.",
+    description: "Moinho, prensa e grãos de uma torrefação paulistana.",
     priceCents: 28000,
     category: "Cozinha",
     status: "available",

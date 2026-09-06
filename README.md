@@ -2,7 +2,7 @@
 
 Wedding site sketch: invitation, gift list, RSVP, and ceremony schedule. Built with Next.js, following the same layout as CineTrack.
 
-Demo couple: Clara & Hugo, Ouro Preto, 15 Nov 2026. Names and date live in `src/service/wedding.ts`.
+Couple: Vinicius & Hellen, São Paulo, 15 Nov 2026. Names and date live in `src/service/wedding.ts`.
 
 ## Stack
 
